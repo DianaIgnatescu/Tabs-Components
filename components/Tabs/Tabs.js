@@ -50,6 +50,7 @@ class TabItem {
     
     // Add a class named "tabs-item-selected" to this element
     this.element.classList.add('tabs-item-selected');
+    TweenMax.from('.tabs-item-description', 2, { x: 200, opacity: 0});
   }
 }
 
